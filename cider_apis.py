@@ -146,6 +146,7 @@ async def connect_and_listen(mode=""):
         
 
 def start_websocket(mode=""):
+    # for this following code, and the connect and listen, is very jank. not sure why it doesnt work on python 3.9 or newer, will find out eventually.
     # Create a new event loop
     loop = asyncio.new_event_loop()
 
