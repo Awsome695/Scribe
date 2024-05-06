@@ -18,7 +18,7 @@ Mostly Un-spaghetti-fied, working on figuring out why it doesnt work on Python 3
 ### Current Issues
 * Can currently only be started via cmd or terminal, or use an IDE
 * Cannot be stopped unless killed by task manager (i've only tested on windows sorry!)
-* Requires Python 3.8 or older(?) (an Issue with threading and how i have it setup probably)
+* Requires Python 3.8 (an Issue with threading and how i have it setup probably)
 
 ## Requirements
 * Python 3.8
